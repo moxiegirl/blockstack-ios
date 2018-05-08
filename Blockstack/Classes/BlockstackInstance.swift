@@ -12,7 +12,7 @@ import JavaScriptCore
 public enum BlockstackConstants {
     static let DefaultCoreAPIURL = "https://core.blockstack.org"
     static let BrowserWebAppURL = "https://browser.blockstack.org"
-    static let BrowserWebAppAuthEndpoint = "http://localhost:3000/auth"
+    static let BrowserWebAppAuthEndpoint = "https://browser.blockstack.org/auth"
     static let AuthProtocolVersion = "1.1.0"
     static let DefaultGaiaHubURL = "https://hub.blockstack.org"
     static let ProfileUserDefaultLabel = "BLOCKSTACK_PROFILE_LABEL"
