@@ -5,7 +5,6 @@ jobs:
     # Specify the Xcode version to use
     macos:
       xcode: "9.3.0"
-    working_directory: Example
 
     steps:
       - checkout
@@ -14,6 +13,7 @@ jobs:
       - run:
           name: Install CocoaPods
           command: pod install
+          working_directory: Example
 
       # Build the app and run tests
       - run:
