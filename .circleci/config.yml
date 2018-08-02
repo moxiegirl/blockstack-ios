@@ -28,7 +28,7 @@ jobs:
       # and save the same XML files under test-results folder
       # in the Artifacts tab
       - store_test_results:
-          path: test_output/report.xml
+          path: Example/test_output/report.xml
       - store_artifacts:
           path: /tmp/test-results
           destination: scan-test-results
