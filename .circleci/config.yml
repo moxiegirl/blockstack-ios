@@ -23,12 +23,15 @@ jobs:
           environment:
             SCAN_DEVICE: iPhone 6
             SCAN_SCHEME: Blockstack-Example
+            SCAN_OUTPUT_DIRECTORY: /test_output
+            SCAN_OUTPUT_TYPES: junit
+            SCAN_OUTPUT_FILES: junit.xml
 
       # Collect XML test results data to show in the UI,
       # and save the same XML files under test-results folder
       # in the Artifacts tab
       - store_test_results:
-          path: Example/test_output/report.xml
+          path: /test_output/report.xml
       - store_artifacts:
           path: /tmp/test-results
           destination: scan-test-results
