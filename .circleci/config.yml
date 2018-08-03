@@ -25,7 +25,7 @@ jobs:
             SCAN_SCHEME: Blockstack-Example
             SCAN_OUTPUT_DIRECTORY: /test_output
             SCAN_OUTPUT_TYPES: junit
-            SCAN_OUTPUT_FILES: junit.xml
+            SCAN_OUTPUT_FILES: report.xml
 
       # Collect XML test results data to show in the UI,
       # and save the same XML files under test-results folder
