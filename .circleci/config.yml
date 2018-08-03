@@ -31,9 +31,9 @@ jobs:
       # and save the same XML files under test-results folder
       # in the Artifacts tab
       - store_test_results:
-          path: "./test_output"
+          path: "./Example/test_output"
       - store_artifacts:
-          path: "./test_output"
+          path: "./Example/test_output"
           destination: scan-test-results
       - store_artifacts:
           path: ~/Library/Logs/scan
